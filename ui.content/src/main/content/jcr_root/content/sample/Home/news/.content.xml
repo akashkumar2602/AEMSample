@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-08-26T02:18:45.261+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sample/settings/wcm/templates/home-pgae"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="news-page"
+        sling:resourceType="sample/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2018-08-26T01:59:28.454+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <image
+                jcr:created="{Date}2018-08-26T02:18:32.408+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-08-26T02:18:45.258+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sample/components/content/image"
+                fileReference="/content/dam/sample/chlimage_1 (2).png"/>
+        </root>
+    </jcr:content>
+</jcr:root>
